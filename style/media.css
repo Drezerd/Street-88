@@ -1,0 +1,237 @@
+@media(max-width:1160px){
+    .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .burger__p__1 {
+        text-align: center;
+    }
+    .burger__p__2 {
+        margin: 0 auto;
+    }
+    .burger__p__3 {
+        text-align: center;
+    }
+    .card__p {
+        font-size: 40px;
+    }
+    .stret__img img{
+        max-width: 1160px;
+        object-fit: cover;
+        width: 100%;
+    }
+}
+@media(max-width:1608px){
+    .meat {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        max-width: 1200px;
+    }
+    .ul {
+        max-width: 1200px;
+    }
+}
+@media(max-width:1200px){
+    .meat {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        max-width: 800px;
+    }
+    .ul {
+        max-width: 800px;
+    }
+}
+@media(max-width:800px){
+    .burger__p__4 {
+        font-size: 30px;
+    }
+    .stret__ {
+        font-size: 50px;
+    }
+    .meat {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 1fr);
+        max-width: 800px;
+        place-items: center;
+    }
+    .div__ul {
+        margin: auto;
+    }
+    .card__p {
+        font-size: 35px;
+    }
+    .stret__p {
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+    }
+}
+@media(max-width:992px){
+    .burger__bg {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    }
+    
+    .burger__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    
+}
+@media(max-width:800px){
+    .streety {
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 10px;
+    }
+    .burger__p__1 {
+        font-size: 50px;
+    }
+    .burger__p__2 {
+        font-size: 26px;
+    }
+    .burger__p__4 {
+        padding: 20px 25px;
+    }
+    .burger__p__5 {
+        padding: 15px 30px;
+    }
+    .card__p {
+        padding: 10px 0;
+    }
+
+}
+@media(max-width:520px){
+    .meat {
+        gap: 15px;
+    }
+    .card {
+        margin-top: 20px;
+    }
+    .number {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .header__div {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .ul__div {
+        flex-wrap: wrap;
+    }
+    .card__p {
+        padding: 5px 0;
+    }
+    .card__p {
+        font-size: 25px;
+    }
+
+.div__burger__2 {
+    flex-direction: column;
+    gap: 30px;
+}
+.burger__p__1 {
+    font-size: 30px;
+    max-width: 300px;
+    margin: auto;
+}
+.burger__p__3 {
+    font-size: 14px;
+    padding-bottom: 0px;
+}
+.burger__p__2 {
+    font-size: 29px;
+    padding-bottom: 5px;
+    }
+    .burger__p__4 {
+        font-size: 35px;
+    }
+    .header__a {
+        padding-bottom: 20px;
+    }
+    .div__ul {
+        flex-direction: column;
+        margin: auto;
+    }
+}
+    
+    @media(max-width:600px){
+        .stret__ {
+            font-size: 40px;
+        }
+    }
+    @media(max-width:450px){
+        .stret__ {
+            font-size: 30px;
+        }
+    }
+    @media(max-width:400px){
+        .meat {
+            max-width: 400px;
+            margin: 0;
+            padding: 10px;
+        }
+        .meat__img {
+            position: relative;
+            max-width: 270px;
+            object-fit: cover;
+            margin: auto;
+        }
+        .meat__p__2 {
+            text-align: center;
+            font-size: 15px;
+            line-height: 20px;
+            max-width: 280px;
+        }
+        .meat__p {
+            margin: 0 auto;
+        }
+        .meats {
+            max-width: 350px;
+        }
+        
+    }
+    @media(max-width:320px){
+        .div__burger__2 {
+    padding-bottom: 40px;
+}
+    }
+    @media(max-width:350px){
+        .stret__ {
+            font-size: 25px;
+        }
+        .meat__p__2 {
+            text-align: center;
+            font-size: 15px;
+            line-height: 20px;
+            max-width: 250px;
+        }
+        .meat__img {
+            position: relative;
+            max-width: 250px;
+            object-fit: cover;
+            margin: auto;
+        }
+    .header__ul {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        align-items: center;
+    }
+    .burger__p__1 {
+        font-size: 25px;
+        max-width: 300px;
+        margin: 0;
+    }
+
+    }
